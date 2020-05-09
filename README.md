@@ -32,4 +32,4 @@ Fork or clone this repo, then run following commands in sequence
 *This command will run both back-end and front-end simultaneously*
 
 ##Screenshots:
-![MAP](https://drive.google.com/file/d/1RSIBKudb8LO67RA2Akljn30tLoBwHf6C/view?usp=sharing)
+![MAP](https://github.com/iamdeepti/shecure/blob/master/Capture1.PNG)
