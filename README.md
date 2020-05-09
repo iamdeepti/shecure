@@ -31,6 +31,6 @@ Fork or clone this repo, then run the following commands in sequence
 6) npm run dev 
 *This command will run both back-end and front-end simultaneously*
 
-#Screenshots:
+## Screenshots:
 ![MAP](https://github.com/iamdeepti/shecure/blob/master/Capture1.PNG)
 ![MY LOCATION](https://github.com/iamdeepti/shecure/blob/master/Capture2.PNG)
