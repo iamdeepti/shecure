@@ -2,7 +2,7 @@
 
 <p align='center'><img src = 'https://github.com/iamdeepti/shecure/blob/master/client/src/component/images/shecure.png'/></p>
 
-<p align='center'> <h1>ShECURE </h1></p>
+<p align='center'> <h1 align='center'>ShECURE </h1></p>
 Website link : http://shecure.herokuapp.com/
 
 
