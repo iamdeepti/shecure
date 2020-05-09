@@ -1,5 +1,6 @@
 # SheCURE
-![LOGO]()
+Website link : http://shecure.herokuapp.com/
+![LOGO](https://github.com/iamdeepti/shecure/blob/master/Capture4%2Cpng.JPG)
 ## A personal safety map app for women
 
 While it is physically not feasible to simply rebuild the roads and streets, a number of measures are being taken to make women feel more secure while travelling. Our contribution to circumventing this problem is through ShECURE.
@@ -32,5 +33,9 @@ Fork or clone this repo, then run the following commands in sequence
 *This command will run both back-end and front-end simultaneously*
 
 ## Screenshots:
+1) Safest route 
 ![MAP](https://github.com/iamdeepti/shecure/blob/master/Capture1.PNG)
+2) Current Location
 ![MY LOCATION](https://github.com/iamdeepti/shecure/blob/master/Capture2.PNG)
+3) Feedback Form
+![Feedback form](https://github.com/iamdeepti/shecure/blob/master/Capture3.png)
