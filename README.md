@@ -1,5 +1,5 @@
-# shecure
-
+# SheCURE
+![LOGO]()
 ## A personal safety map app for women
 
 While it is physically not feasible to simply rebuild the roads and streets, a number of measures are being taken to make women feel more secure while travelling. Our contribution to circumventing this problem is through ShECURE.
@@ -31,4 +31,6 @@ Fork or clone this repo, then run the following commands in sequence
 6) npm run dev 
 *This command will run both back-end and front-end simultaneously*
 
-
+#Screenshots:
+![MAP](https://github.com/iamdeepti/shecure/blob/master/Capture1.PNG)
+![MY LOCATION](https://github.com/iamdeepti/shecure/blob/master/Capture2.PNG)
