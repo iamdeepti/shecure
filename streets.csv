@@ -1,0 +1,142 @@
+Sreet name,nearest metro station distance(in km),type of road,crime,nearest police chowki,population density,rape,Kidnapping & Abduction_Total,Acid attack,Assault on Women,Sexual Harassment,use of criminal force to women,Stalking,Other Assault on Women,district,safety
+,,,,,,,,,,,,,,,
+akbar road,1.2,major district road,857,2.5,582320,91,305,212,54,9,26,123,37,central,3
+aruna asaf ali marg,5.1,district road,2005,17.4,2292958,234,719,494,86,57,99,248,68,south west,2
+ashram chowk,5.7,major district road,2008,2.7,2292958,266,683,469,85,34,74,274,123,south west,1
+bahadur shah zafar marg,0.27,major district road,857,2.6,582320,91,305,212,54,9,26,123,37,central,3
+barakhamba road,2.4,major district road,857,0.393,582320,91,305,212,54,9,26,123,37,central,3
+delhi gurgaon expressway,8.2,expressway,0,4.6,2543243,0,0,0,0,0,0,0,0,West,3
+dnd flyway,13,major district road,0,13.3,1674714,0,0,0,0,0,0,0,0,gautam buddh,1
+dr apj abdul kalam road,0.5,major district road,857,0.65,582320,91,305,212,54,9,26,123,37,central,3
+eastern peripheral expressway,90.6,expressway,0,20.1,1674714,0,0,0,0,0,0,0,0,gautam buddh,3
+faridabad-noida-ghaziabad expressway,6.1,expressway,0,4.8,1674714,0,0,0,0,0,0,0,0,gautam buddh,1
+grand trunk road,0.141,major district road,2314,45,2241624,237,1047,492,171,46,47,224,50,north east,3
+iit flyover,0.157,flyover,2762,4.2,2731929,280,627,595,150,39,0,406,665,south,0
+inner ring road,9.2,major district road,2314,18.2,2241624,237,1047,492,171,46,47,224,50,north east,0
+janpath road,1.2,major district road,857,0.7,582320,91,305,212,54,9,26,123,37,central,3
+kashmiri gate,0.7,major district road,857,1.5,582320,91,305,212,54,9,26,123,37,central,3
+lodhi road,3.5,major district road,857,1.1,582320,91,305,212,54,9,26,123,37,central,3
+lok kalyan marg,1.6,major district road,857,2.5,582320,91,305,212,54,9,26,123,37,central,3
+mathura road,3.2,major district road,2762,14.8,2731929,280,627,595,150,39,0,406,665,south,0
+outer ring road,1.1,major district road,1684,4,3656539,165,663,404,109,23,61,208,51,north west,1
+mansingh road,2,district road,857,2.5,582320,91,305,212,54,9,26,123,37,central,3
+motilal nehru road,1.3,district road,857,2,582320,91,305,212,54,9,26,123,37,central,3
+maulana azad road,0.202,district road,857,0.5,582320,91,305,212,54,9,26,123,37,central,3
+krishna menon road,0.472,district road,2005,0.792,2292958,234,719,494,86,57,99,248,68,south west,1
+tughlaq road,0.047,district road,857,0.23,582320,91,305,212,54,9,26,123,37,central,3
+tees january marg,1.2,district road,857,1.4,582320,91,305,212,54,9,26,123,37,central,3
+delhi ring road,2.1,Ring road,0,14.2,0,0,0,0,0,0,0,0,0,everywhere,3
+shahjahan road,2.6,major district road,857,1.7,582320,91,305,212,54,9,26,123,37,central,3
+humayun road,0.55,district road,857,0.4,582320,91,305,212,54,9,26,123,37,central,3
+prithviraj road,1,major district road,857,1.6,582320,91,305,212,54,9,26,123,37,central,3
+mustafa kemal ataturk marg,0.786,major district road,0,40,2731929,0,0,0,0,0,0,0,0,south,2
+safdarjung road,1.6,major district road,857,1.6,582320,91,305,212,54,9,26,123,37,central,3
+national highway 1,197,national highway,2762,600,2731929,280,627,595,150,39,0,406,665,south,3
+national highway 2,600,national highway,2762,600,2731929,280,627,595,150,39,0,406,665,south,2
+national highway 8,600,national highway,2005,600,2292958,234,719,494,86,57,99,248,68,south west,0
+national highway 10,600,national highway,2005,600,2292958,234,719,494,86,57,99,248,68,south west,0
+national highway 24,600,national highway,2005,600,2292958,234,719,494,86,57,99,248,68,south west,0
+nizamuddin bridge,7.9,major district road,2762,6.9,2731929,280,627,595,150,39,0,406,665,south,0
+ito flyover,0.55,flyover,857,2.4,582320,91,305,212,54,9,26,123,37,central,3
+old hanuman mandir/ iron bridge/old delhi xing/ yamuna bazar bridge,0.593,district road,857,5.9,582320,91,305,212,54,9,26,123,37,central,3
+isbt kashmere gate flyover,0.05,flyover,857,1.2,582320,91,305,212,54,9,26,123,37,central,3
+azadpur bridge,1.9,major district road,1684,2.9,3656539,165,663,404,109,23,61,208,51,north west,1
+wazirpur bridge,15,major district road,716,10.8,887978,60,279,180,42,12,16,109,18,north,0
+madhuman chowk underpass,1.4,district road,2122,2.5,2543243,251,848,484,137,64,52,223,63,west,1
+britannia chowk flyover,2.3,flyover,1684,7.2,3656539,165,663,404,109,23,61,208,51,north west,1
+punjabi bagh flyover,3.6,flyover,2122,0.9,2543243,251,848,484,137,64,52,223,63,west,1
+moti nagar flyover,3.5,flyover,1909,2.8,1709346,230,678,446,171,36,91,143,114,east,3
+shivaji place district centre flyover,1.9,flyover,2122,24.8,2543243,251,848,484,137,64,52,223,63,west,2
+mayapuri flyover,0.26,flyover,2122,4,2543243,251,848,484,137,64,52,223,63,west,1
+kirti nagar flyover,0.056,flyover,2122,0.85,2543243,251,848,484,137,64,52,223,63,west,1
+naraina bridge,5.7,district road,2005,5.6,2292958,234,719,494,86,57,99,248,68,south west,1
+dhaula kuan,1.9,district road,2005,5.7,2292958,234,719,494,86,57,99,248,68,south west,1
+motibagh flyover,1,flyover,193,5.6,142004,20,44,56,25,1,14,15,18,new delhi,1
+africa avenue flyover,2,flyover,2005,0.1,2292958,234,719,494,86,57,99,248,68,south west,1
+saronjini nagar flyover,0.1,flyover,2005,2.9,2292958,234,719,494,86,57,99,248,68,south west,1
+aiims flyover complex,1,flyover,0,3,582320,0,0,0,0,0,0,0,0,centre,2
+bhishm pitamah marg xing,1,major district road,857,4.8,582320,91,305,212,54,9,26,123,37,central,3
+august kranti marg xing,2,major district road,2762,1.8,2731929,280,627,595,150,39,0,406,665,south,0
+south extension xing,0.294,major district road,2762,1.3,2731929,280,627,595,150,39,0,406,665,south,0
+moolchand flyover,2.2,flyover,2762,2.6,2731929,280,627,595,150,39,0,406,665,south,0
+defence colony underpass,0.568,major district road,2762,2.9,2731929,280,627,595,150,39,0,406,665,south,0
+lajpat nagar flyover,3.2,flyover,2762,5.2,2731929,280,627,595,150,39,0,406,665,south,0
+nehru nagar bridge,1.3,district,2762,5.2,2731929,280,627,595,150,39,0,406,665,south,0
+ajmal khan road,0.75,district,857,0.3,582320,91,305,212,54,9,26,123,37,central,3
+amrita shergil marg,1.2,district,857,0.7,582320,91,305,212,54,9,26,123,37,central,3
+baba kharak singh marg,1.1,district,857,1.5,582320,91,305,212,54,9,26,123,37,central,3
+balwant rai mehta lane,1.3,district,857,2.2,582320,91,305,212,54,9,26,123,37,central,3
+dr bishambar das marg,1.7,district,857,1.5,582320,91,305,212,54,9,26,123,37,central,3
+jawahar lal nehru marg,1.3,major district road,193,5.7,142004,20,44,56,25,1,14,15,18,new delhi,1
+kasturba gandhi marg,1.5,major district road,857,1.6,582320,91,305,212,54,9,26,123,37,central,3
+rafi marg,0.35,district,857,2.5,582320,91,305,212,54,9,26,123,37,central,3
+rajaji marg,0.623,major district road,857,1.1,582320,91,305,212,54,9,26,123,37,central,3
+rajesh pilot marg,2.5,major district road,857,0.7,582320,91,305,212,54,9,26,123,37,central,3
+sardar patel marg,2,major district road,857,0.6,582320,91,305,212,54,9,26,123,37,central,3
+subramania bharti marg,0.134,major district road,857,0.7,582320,91,305,212,54,9,26,123,37,central,3
+thyagaraja marg,2,district road,2762,0.3,2731929,280,627,595,150,39,0,406,665,south,0
+tilak marg,1,district road,857,0.3,582320,91,305,212,54,9,26,123,37,central,3
+tolstoy marg,0.35,district road,857,1.7,582320,91,305,212,54,9,26,123,37,central,3
+vivekanand marg,2.3,major district road,2005,0.6,2292958,234,719,494,86,57,99,248,68,south west,1
+haneef uddin marg,0.05,district road,1684,0.5,3656539,165,663,404,109,23,61,208,51,north west,1
+maharaja agrasen road,4.6,major district road,1909,31.1,1709346,230,678,446,171,36,91,143,114,east,2
+alexander m. kadakin marg,1.3,district road,2005,5.9,2292958,234,719,494,86,57,99,248,68,south west,1
+andr� malraux marg,3.5,district road,2005,2,2292958,234,719,494,86,57,99,248,68,south west,1
+bhai vir singh marg,1.5,district road,857,2,582320,91,305,212,54,9,26,123,37,central,3
+chlemsford road,11,major distict road,857,0.4,582320,91,305,212,54,9,26,123,37,central,1
+connaught lane,0.6,major district road,857,0.5,582320,91,305,212,54,9,26,123,37,central,3
+dara shikoh road,1.1,district road,857,0.85,582320,91,305,212,54,9,26,123,37,central,3
+gamal abdel nasser marg,1.5,major district road,2762,0.4,2731929,280,627,595,150,39,0,406,665,south,0
+hailey road,0.95,district road,857,0.3,582320,91,305,212,54,9,26,123,37,central,3
+indira chowk,4,district road,857,523.8,582320,91,305,212,54,9,26,123,37,central,3
+jai singh marg,0.55,district road,857,4.1,582320,91,305,212,54,9,26,123,37,central,3
+justice s.b. road,1,district road,857,0.7,582320,91,305,212,54,9,26,123,37,central,3
+justice sunanda bhandare marg,12,district road,2762,2.2,2731929,280,627,595,150,39,0,406,665,south,0
+kwame nkrumah marg,3,district road,2005,0.4,2292958,234,719,494,86,57,99,248,68,south west,1
+maharshi raman marg,11,district road,857,0.4,582320,91,305,212,54,9,26,123,37,central,1
+archbishop makarios marg,10,district road,857,0.9,582320,91,305,212,54,9,26,123,37,central,1
+mohammad ali jauhar marg,9,district road,2762,1.1,2731929,280,627,595,150,39,0,406,665,south,0
+mother teresa crescent,6.1,major district road,2005,0.156,2292958,234,719,494,86,57,99,248,68,south west,1
+motilal nehru marg,0.55,major district road,857,0.2,582320,91,305,212,54,9,26,123,37,central,3
+mustafa kemal ataturk marg,0.66,district road,2762,0.071,2731929,280,627,595,150,39,0,406,665,south,0
+najaf khan road,1.1,district,857,1.6,582320,91,305,212,54,9,26,123,37,central,3
+nelson mandela road,5.5,major district road,2122,1.1,2543243,251,848,484,137,64,52,223,63,west,1
+rajiv chowk,0.1,major district road,857,0.6,582320,91,305,212,54,9,26,123,37,central,3
+rao tula ram marg,1,major district road,0,3,116000,0,0,0,0,0,0,0,0,delhi cantt,1
+dr zakir hussain marg,4.5,major district road,857,4.6,582320,91,305,212,54,9,26,123,37,central,3
+sham nath marg,0.2,district road,716,7,887978,60,279,180,42,12,16,109,18,North,0
+rani jhansi road,2.9,major district road,857,3,582320,91,305,212,54,9,26,123,37,central,3
+ansari road,1,district,857,0.75,582320,91,305,212,54,9,26,123,37,central,3
+netaji subhash marg,0.45,district,2005,1.2,2292958,234,719,494,86,57,99,248,68,south west,1
+swami shradhanand marg,9.9,district,857,0.24,582320,91,305,212,54,9,26,123,37,central,1
+benito juarez marg,2.4,district,2005,1.163,2292958,234,719,494,86,57,99,248,68,south west,1
+khan abdul ghaffar khan marg,0.8,district road,2122,0.06,2543243,251,848,484,137,64,52,223,63,West,1
+bangla sahib marg,2,district road,857,0.055,582320,91,305,212,54,9,26,123,37,central,3
+kali marg,3,district road,857,0.044,582320,91,305,212,54,9,26,123,37,central,3
+mandir marg,1.5,major district road,0,1.2,116000,0,0,0,0,0,0,0,0,delhi cantt,1
+teen murti marg,1,major district road,1684,0.45,3656539,165,663,404,109,23,61,208,51,north west,1
+mehrauli badarpur road,26.5,major district road,2762,4.8,2731929,280,627,595,150,39,0,406,665,south,2
+aurbindo marg,0.55,major district road,2005,1.1,2292958,234,719,494,86,57,99,248,68,south west,1
+mahipalpur mehrauli road,5,major district road,2005,8.8,2292958,234,719,494,86,57,99,248,68,south west,2
+mehrauli  gurgaon road,3.2,major district road,2005,6.5,2292958,234,719,494,86,57,99,248,68,south west,2
+ho chi minh marg,0.152,major district road,2762,0.45,2731929,280,627,595,150,39,0,406,665,south,0
+lala lajpat rai marg,0.75,major district road,2762,1.8,2731929,280,627,595,150,39,0,406,665,south,0
+lal bahadur shastri marg,0.16,major district road,2762,6.7,2731929,280,627,595,150,39,0,406,665,south,0
+shanti path,0.455,major district road,2005,0.8,2292958,234,719,494,86,57,99,248,68,south west,1
+pusa road,0.8,major district road,857,1.1,582320,91,305,212,54,9,26,123,37,central,3
+cariappa marg,1,major district road,0,2.7,116000,0,0,0,0,0,0,0,0,Delhi Cantt,1
+simon bolivar marg,0.935,major district road,2005,1.7,2292958,234,719,494,86,57,99,248,68,south west,1
+raisina road,1,major district road,857,0.6,582320,91,305,212,54,9,26,123,37,central,3
+siri fort marg,1,major district road,2762,1.3,2731929,280,627,595,150,39,0,406,665,south,0
+vandematram marg,2,major district road,857,0.5,582320,91,305,212,54,9,26,123,37,central,3
+shankar road,0.28,major district road,857,0.4,582320,91,305,212,54,9,26,123,37,central,3
+k b hedgewar marg,1,major district road,2122,0.2,2543243,251,848,484,137,64,52,223,63,west,1
+anuvpat marg,1,major district road,2005,1.2,2292958,234,719,494,86,57,99,248,68,south west,1
+najafgarh road,8.1,major district road,2005,10.5,2292958,234,719,494,86,57,99,248,68,south west,2
+swarna jayanti marg,0.278,major district road,857,0.8,582320,91,305,212,54,9,26,123,37,central,3
+zorawar singh marg,1.2,major district road,857,5.5,582320,91,305,212,54,9,26,123,37,central,3
+vinay marg,2,major district road,2005,0.9,2292958,234,719,494,86,57,99,248,68,south west,1
+race course road,0.044,major district road,857,0.3,582320,91,305,212,54,9,26,123,37,central,3
+ashoka road,3.2,major district road,857,0.1,582320,91,305,212,54,9,26,123,37,central,3
+sree vinayaka mandir marg,0.6,major district road,2005,0.7,2292958,234,719,494,86,57,99,248,68,south west,1
+kautilya marg,2.8,major district road,2005,1.1,2292958,234,719,494,86,57,99,248,68,south west,1
