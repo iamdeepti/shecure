@@ -18,13 +18,13 @@ The application takes the current position of the user by using the Mapbox geolo
 We used feedback form to get few details that are not originally extracted through public   datasets 
 
 ### How to use this repo
-Fork or clone this repo, then run following commands in sequence
+Fork or clone this repo, then run the following commands in sequence
 1) cd to the directory
    *cd path_to_directory*
 2) npm install
-- *This will install all the nodemodules for server files*
+*This will install all the node modules for server files*
 3) cd client
-- *Moving to client folder*
+*Moving to client folder*
 4) npm install
 *this will install all the node modules for client directory*
 5) cd ..
