@@ -1,6 +1,6 @@
 # SheCURE
 
-<p align='center'>![LOGO](https://github.com/iamdeepti/shecure/blob/master/client/src/component/images/shecure.png)</p>
+<p align='center'><img src = 'https://github.com/iamdeepti/shecure/blob/master/client/src/component/images/shecure.png'/></p>
 Website link : http://shecure.herokuapp.com/
 ## A personal safety map app for women
 
