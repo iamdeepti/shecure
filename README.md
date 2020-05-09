@@ -1,8 +1,10 @@
-# SheCURE
+
 
 <p align='center'><img src = 'https://github.com/iamdeepti/shecure/blob/master/client/src/component/images/shecure.png'/></p>
+
+<p align='center'> <h1>ShECURE </h1></p>
 Website link : http://shecure.herokuapp.com/
-## A personal safety map app for women
+
 
 While it is physically not feasible to simply rebuild the roads and streets, a number of measures are being taken to make women feel more secure while travelling. Our contribution to circumventing this problem is through ShECURE.
 ShECURE is a web-application which behaves like a personal safety map for women. 
