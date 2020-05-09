@@ -1,4 +1,4 @@
-# shecure
+# SheCURE
 
 ## A personal safety map app for women
 
