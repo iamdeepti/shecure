@@ -32,5 +32,9 @@ Fork or clone this repo, then run the following commands in sequence
 *This command will run both back-end and front-end simultaneously*
 
 #Screenshots:
+1) Safest route 
 ![MAP](https://github.com/iamdeepti/shecure/blob/master/Capture1.PNG)
+2) Current Location
 ![MY LOCATION](https://github.com/iamdeepti/shecure/blob/master/Capture2.PNG)
+3) Feedback Form
+![Feedback form](https://github.com/iamdeepti/shecure/blob/master/Capture3.png)
