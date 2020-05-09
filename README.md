@@ -1,5 +1,5 @@
 # SheCURE
-![LOGO]()
+![LOGO](https://github.com/iamdeepti/shecure/blob/master/Capture4%2Cpng.JPG)
 ## A personal safety map app for women
 
 While it is physically not feasible to simply rebuild the roads and streets, a number of measures are being taken to make women feel more secure while travelling. Our contribution to circumventing this problem is through ShECURE.
