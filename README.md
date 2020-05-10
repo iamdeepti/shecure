@@ -5,6 +5,8 @@
 <p align='center'> <h1 align='center'>ShECURE </h1></p>
 Website link : http://shecure.herokuapp.com/
 
+[![HitCount](http://hits.dwyl.com/iamdeepti/shecure.svg)](http://hits.dwyl.com/iamdeepti/shecure)
+
 
 While it is physically not feasible to simply rebuild the roads and streets, a number of measures are being taken to make women feel more secure while travelling. Our contribution to circumventing this problem is through ShECURE.
 ShECURE is a web-application which behaves like a personal safety map for women. 
