@@ -21,7 +21,7 @@ The application then shows the safety score of each route and mark the safest ro
 The application takes the current position of the user by using the Mapbox geolocation API. For the returned longitude and latitude, all the streets and places lying within the radius of 500m are extracted using the Mapbox Geocoding API. The safety scores of all these places are predicted using the machine learning model on taking the average of all the safety scores of the region. If the safety score is below a certain threshold an emergency SOS is activated and the user is alerted. We also depict the safety of the region by marking it green (safe) / red (unsafe).
 
 ##### 3)Feedback form:
-We used feedback form to get few details that are not originally extracted through public   datasets 
+We used feedback form to get few details that are not originally extracted through public datasets 
 
 ### How to use this repo
 Fork or clone this repo, then run the following commands in sequence
@@ -39,8 +39,8 @@ Fork or clone this repo, then run the following commands in sequence
 
 ## Screenshots:
 1) Safest route 
-![MAP](https://github.com/iamdeepti/shecure/blob/master/Capture1.PNG)
+![MAP](https://github.com/iamdeepti/shecure/screenshots/blob/master/Capture1.PNG)
 2) Current Location
-![MY LOCATION](https://github.com/iamdeepti/shecure/blob/master/Capture2.PNG)
+![MY LOCATION](https://github.com/iamdeepti/shecure/screenshots/blob/master/Capture2.PNG)
 3) Feedback Form
-![Feedback form](https://github.com/iamdeepti/shecure/blob/master/Capture3.png)
+![Feedback form](https://github.com/iamdeepti/shecure/screenshots/blob/master/Capture3.png)
