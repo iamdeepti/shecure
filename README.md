@@ -7,14 +7,14 @@ Website link : http://shecure.herokuapp.com/
 
 [![HitCount](http://hits.dwyl.com/iamdeepti/shecure.svg)](http://hits.dwyl.com/iamdeepti/shecure)
 
-
-While it is physically not feasible to simply rebuild the roads and streets, a number of measures are being taken to make women feel more secure while travelling. Our contribution to circumventing this problem is through ShECURE.
-ShECURE is a web-application which behaves like a personal safety map for women. 
+### INSPIRATION
+Unsafe streets limits women’s choices in life forcing them to miss those important opportunities and moments where they can feel proud,confident and empowered.While many initiatives have been taken by the Ministry of Women and Child development like installation of CCTV monitors in railways stations with 24*7 monitoring , equipping phones with emergency helpline numbers(181) and panic buttons etc.
+Our contribution in circumventing this problem is through ShECURE,a web-application which behaves like a personal safety map for women
 
 #### ShECURE provides 2 utilities depending on user’s choice:
 
 ##### 1)Detecting the safest route:
-The user enters the source and destination, the application extracts different possible routes using the Mapbox Directions API and for each route, it uses reverse geocoding API  to extract all the streets names in a particular route. For each street lying in the route, the k nearest neighbours model is used to predict the safety score of the street lying between 1- 4 (4 being highly safe and 1 being unsafe). Datasets used for the value of different factors specified were collected from ... Safety of a route is calculated by taking an average of all the safety scores from the streets lying in the route. 
+The user enters the source and destination, the application extracts different possible routes using the Mapbox Directions API and for each route, it uses reverse geocoding API  to extract all the streets names in a particular route. For each street lying in the route, the k nearest neighbours model is used to predict the safety score of the street lying between 1- 4 (4 being highly safe and 1 being unsafe). Datasets used for the value of different factors specified were collected . Safety of a route is calculated by taking an average of all the safety scores from the streets lying in the route. 
 The application then shows the safety score of each route and mark the safest route with green. It is the user’s choice to choose her path accordingly.
 
 ##### 2)Detecting the safety score of current position:
