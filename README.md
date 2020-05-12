@@ -39,8 +39,8 @@ Fork or clone this repo, then run the following commands in sequence
 
 ## Screenshots:
 1) Safest route 
-![MAP](https://github.com/iamdeepti/shecure/screenshots/blob/master/Capture1.PNG)
+![MAP](https://github.com/iamdeepti/shecure/blob/master/screenshots/Capture1.PNG)
 2) Current Location
-![MY LOCATION](https://github.com/iamdeepti/shecure/screenshots/blob/master/Capture2.PNG)
+![MY LOCATION](https://github.com/iamdeepti/shecure/blob/master/screenshots/Capture2.PNG)
 3) Feedback Form
-![Feedback form](https://github.com/iamdeepti/shecure/screenshots/blob/master/Capture3.png)
+![Feedback form](https://github.com/iamdeepti/shecure/blob/master/screenshots/Capture3.png)
