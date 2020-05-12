@@ -23,6 +23,7 @@
 		"express": "^4.17.1",
 		"fetch": "^1.1.0",
 		"mongoose": "^5.7.9",
+		"nodemailer": "^6.4.6",
 		"path": "^0.12.7",
 		"sentiment": "^5.0.2"
 	},

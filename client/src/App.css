@@ -3,3 +3,10 @@
   margin-left: auto !important;
   margin-right: auto !important;
 }
+.btn-right{
+  display: inline-block !important;
+  /* float: right !important; */
+}
+.btn-flex{
+  display: inline-block !important;
+}

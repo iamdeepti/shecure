@@ -6,7 +6,8 @@ import "react-map-gl-geocoder/dist/mapbox-gl-geocoder.css";
 import axios from "axios";
 import PolylineOverlay from "./PolylineOverlay";
 import Feedback from "../pages/Feedback";
-
+import { Button,Alert } from "react-bootstrap";
+import "../../App.css";
 const token =
 	"pk.eyJ1IjoiZGVlcHRpOTU2IiwiYSI6ImNrMm5qaTNpYTAzNGUzY21iaGk4OXE0NmgifQ.U_MZSq_xnxBIZpT6rJS2Vg";
 //const token = process.env.MAPBOX_API;
@@ -27,7 +28,8 @@ class SearchableMap extends Component {
 		safetyScores: [],
 		latlongSafety: null,
 		ready: false,
-		
+		popup: false,
+		show: false,
 		//1-green 2-dark orange 3-orange 4-red
 		colors: ["#008000", "#ffa500", "#ff8c00", "#ff0000"],
 		hideMap:false,
@@ -183,6 +185,35 @@ class SearchableMap extends Component {
 		e.preventDefault();
 		this.setState({hideMap:true,hideFeedback:false,selectedRoute:e.target.value});
 	}
+	sendMail = async()=>{
+
+
+		const config = {
+			headers: {
+			  'Content-Type': 'application/json'
+			}
+		  };
+		const res = await axios.post('api/mailer', {'body':'some location'},config);
+		console.log(res);
+	}
+	setShow = (e) =>{
+		this.setState({show:e});
+	}
+// 	const [show, setShow] = useState(true);
+//  func = ()=>{
+//   if (show) {
+//     return (
+//       <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+//         <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+//         <p>
+//           Change this and that and try again. Duis mollis, est non commodo
+//           luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+//           Cras mattis consectetur purus sit amet fermentum.
+//         </p>
+//       </Alert>
+//     );
+//  }
+//}
 	render() {
 		const {
 			viewport,
@@ -190,7 +221,17 @@ class SearchableMap extends Component {
 			searchResultLayerDestination
 		} = this.state;
 		return (
+			
 			<div className='container'>
+				{ this.state.show === true && (<div><Alert variant="danger" onClose={() => this.setShow(false)} dismissible>
+        <Alert.Heading>YOUR LOCATION WAS SENT TO YOUR TRUSTED CONTACTS</Alert.Heading>
+        <p>
+         You can call on these women helpline numbers too ...
+        </p>
+      </Alert>
+	  </div>)
+					
+				}
 				{ this.state.hideMap===false &&
 				(<div style={{ height: "100vh" }}>
 					<MapGL
@@ -267,10 +308,11 @@ class SearchableMap extends Component {
 								</div>
 							))}
 					</div>
-					<button className="btn" onClick={this.getRoutes}>
+					<span>
+					<Button variant='primary' className='btn-flex' onClick={this.getRoutes}>
 						Search Route
-					</button>
-
+					</Button>
+					</span>
 					<DeckGL
 						{...viewport}
 						layers={[searchResultLayerSource, searchResultLayerDestination]}
@@ -280,8 +322,12 @@ class SearchableMap extends Component {
 				{
 					this.state.hideFeedback===false &&(<Feedback data={this.state.selectedRoute}/>)
 				}
+				<span>
+				<Button variant='danger' className = 'btn-right' onClick={()=>this.setShow(true)}>SOS</Button>
+				</span>
 			</div>
 		);
+		
 	}
 }
 
