@@ -5,8 +5,7 @@ const style = {
 	width: "30px",
 	height: "30px"
 };
-const token =
-	"pk.eyJ1IjoiZGVlcHRpOTU2IiwiYSI6ImNrMm5qaTNpYTAzNGUzY21iaGk4OXE0NmgifQ.U_MZSq_xnxBIZpT6rJS2Vg";
+const token = process.env.REACT_APP_TOKEN;
 
 class Maps extends Component {
 	state = {
