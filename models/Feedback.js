@@ -14,8 +14,8 @@ const feedbackSchema = mongoose.Schema(
             type : String,
             required : true
         },
-        routesWithStreetName: [{
-            type: String
+        routesWithStreetNames: [{
+            type: Array
         }],
         sentiment: {
             type: Number

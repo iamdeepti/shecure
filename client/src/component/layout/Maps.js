@@ -1,20 +1,23 @@
 import React, { Component } from "react";
-import MapGl, { Marker } from "react-map-gl";
+import MapGl, { Marker , NavigationControl} from "react-map-gl";
 import axios from "axios";
+import "../../App.css";
+
 const style = {
 	width: "30px",
 	height: "30px"
 };
-const token = process.env.REACT_APP_TOKEN;
+// const token = process.env.REACT_APP_TOKEN;
+const token = 'pk.eyJ1IjoiZGVlcHRpOTU2IiwiYSI6ImNrZjZ0ZGpjNDBoam8yeHFnMTI2dWE3eDgifQ.JEwmSczpEYR8bRhYFhLXVQ';
 
 class Maps extends Component {
 	state = {
 		viewport: {
 			width: "100vw",
 			height: "100vh",
-			latitude: 42.430472,
-			longitude: -123.334102,
-			zoom: 1
+			latitude: 28.7041,
+			longitude: 77.1025,
+			zoom: 10
 		},
 		userLocation: {},
 		streetNameUserLocation: null,
@@ -37,7 +40,7 @@ class Maps extends Component {
 				width: "100vw",
 				latitude: position.coords.latitude,
 				longitude: position.coords.longitude,
-				zoom: 13
+				zoom: 16
 			};
 			// let newViewport = {
 			// 	height: "100vh",
@@ -101,16 +104,14 @@ class Maps extends Component {
 	};
 	render() {
 		return (
-			<div>
-				<button className="btn btn-primary" onClick={this.setUserLocation}>
-					My Location
-				</button>
+			<div className='container'>
+				<br/>
 				
-			<div style={{ height: "100vh" }}>
+			<div style={{ height: "90vh" }}>
 				<MapGl
 					{...this.state.viewport}
 					onViewportChange={viewport => this.setState({ viewport })}
-					mapboxApiAccessToken="pk.eyJ1IjoiZGVlcHRpOTU2IiwiYSI6ImNrMm5qaTNpYTAzNGUzY21iaGk4OXE0NmgifQ.U_MZSq_xnxBIZpT6rJS2Vg"
+					mapboxApiAccessToken={token}
 					mapStyle="mapbox://styles/mapbox/streets-v9"
 					width="100%"
 					height="90%">
@@ -145,22 +146,13 @@ class Maps extends Component {
 							))
 						)
 					}
-					{/* {Object.keys(this.state.poi).length !== 0 ? (
-						this.state.poi.map(center=>(<Marker
-							latitude={center[0]}
-							longitude={center[1]}>
-							<img
-								src={require("./Location-06.png")}
-								className="location-icon"
-								style={style}
-							/>
-							
-						</Marker>))
-						
+					<button className="btn btn-primary btn-loc" onClick={this.setUserLocation}>
+					My Location
+				</button>
+				<div style={{ position: "absolute", right: 0 }}>
+                    <NavigationControl />
+                  </div>
 
-					) : (
-						<div></div>
-					)} */}
 				</MapGl>
 			</div>
 			</div>

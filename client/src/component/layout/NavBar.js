@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar,Nav} from 'react-bootstrap';
+import '../../App.css';
 export default function NavBar() {
 	return (
 		<Navbar bg="dark" expand="lg" variant='dark'>

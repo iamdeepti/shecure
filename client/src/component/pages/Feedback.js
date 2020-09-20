@@ -18,13 +18,14 @@ export class Feedback extends Component {
 	};
 	setRating = (e)=>{
 		e.preventDefault();
-		this.setState({ranking:e.target.value});
+    this.setState({ranking:e.target.value});
+    this.setState({routesWithStreetNames:this.props.data});
 	};
 	addFeedback = async (e) => {
 		e.preventDefault();
-		console.log("in function");
-		 console.log(this.props);
-		 this.setState({routesWithStreetNames:this.props.data});
+		// console.log("in function");
+		//  console.log(this.props);
+		 
 		const config = {
 			headers: {
 			  'Content-Type': 'application/json'
@@ -34,12 +35,11 @@ export class Feedback extends Component {
 		  sentiment = sentiment.data;
 		  this.setState({sentiment:sentiment});
 		let feedback = JSON.stringify(this.state);
-		console.log("here");
-		console.log(feedback);
-			  //alert(feedback);
+        //alert(feedback);
+        // console.log(feedback);
+        // console.log('props' + this.props.data);
 		const res = await axios.post('/api/feedback', feedback,config);
-		console.log(res.status);
-		alert(res.status);
+		window.location.reload(true);
 	}
 	
   render() {
