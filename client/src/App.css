@@ -12,6 +12,7 @@
 }
 .btn-flex{
   display: inline-block !important;
+<<<<<<< HEAD
   position: relative;
   margin-top: 100px;
   margin-left: 10px;
@@ -21,4 +22,6 @@
   position: relative;
   margin-top: 10px;
   margin-left: 10px;
+=======
+>>>>>>> e2ed37925d58c5710af3925266a5c5a3a7e2f41a
 }

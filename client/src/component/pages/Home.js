@@ -13,7 +13,7 @@ export class Home extends Component {
           safe routes for women to travel. 
           The application provides two functionalities as of now:
           <ol>
-              <li>Search safe routes: Routes are assigned a safety score</li>
+              <li>Search safe routes: Routes are assigned a safety score based on some parameters</li>
               <li>My location: Shows nearby public places</li>
           </ol>
         </p>
