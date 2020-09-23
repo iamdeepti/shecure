@@ -23,9 +23,6 @@ export class Feedback extends Component {
 	};
 	addFeedback = async (e) => {
 		e.preventDefault();
-		// console.log("in function");
-		//  console.log(this.props);
-		 
 		const config = {
 			headers: {
 			  'Content-Type': 'application/json'
@@ -35,10 +32,7 @@ export class Feedback extends Component {
 		  sentiment = sentiment.data;
 		  this.setState({sentiment:sentiment});
 		let feedback = JSON.stringify(this.state);
-        //alert(feedback);
-        // console.log(feedback);
-        // console.log('props' + this.props.data);
-		const res = await axios.post('/api/feedback', feedback,config);
+    await axios.post('/api/feedback', feedback,config);
 		window.location.reload(true);
 	}
 	

@@ -13,7 +13,7 @@ app.use(cors());
 connectDB();
 app.use('/api/feedback',require('./routes/feedback'));
 app.use('/api/mailer',require('./routes/mailer'));
-// app.use('/api/sendtoken',require('./routes/sendtoken'));
+app.use('/api/sendtoken',require('./routes/sendToken'));
 app.use('/api/sentiment',require('./routes/sentiment'));
 app.use('/api/predictSafety',require('./routes/streetmlalgo'));
 app.use(express.json({extended: false}));
