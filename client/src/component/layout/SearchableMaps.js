@@ -118,7 +118,6 @@ class SearchableMap extends Component {
       `https://api.mapbox.com/directions/v5/mapbox/cycling/${this.state.source[0]},${this.state.source[1]};${this.state.destination[0]},${this.state.destination[1]}?steps=true&alternatives=true&geometries=geojson&access_token=${token}`
     );
     this.setState({ routes: res.data });
-    // console.log(this.state.routes);
     var arr = [];
     for (var i = 0; i < this.state.routes.routes.length; i++) {
       var temp = [];
@@ -184,6 +183,10 @@ class SearchableMap extends Component {
         this.state.routesWithStreetName[i],
         this.state.sampleFeedback[i],
         i,
+        {
+            "distance" : this.distanceHelper(this.state.routes.routes[i]["distance"]),
+            "duration" : this.durationHelper(this.state.routes.routes[i]["duration"])
+        }
       ]);
     }
     this.setState({ latlongSafety: arr });
@@ -203,6 +206,25 @@ class SearchableMap extends Component {
     }
     this.setState({ ready: true });
   };
+
+  distanceHelper = (distance) => {
+    if(Number.isNaN(Number.parseFloat(distance))) {
+        return "Not Available";
+    }
+    
+    return `${Number.parseFloat(distance/1000).toFixed(1)} km`;
+  }
+
+  durationHelper = (duration) => {
+    if(Number.isNaN(duration)) {
+        return "Not Available";
+    }
+
+    const currentDurationInMin = Math.round(duration/60);
+
+    return `${Math.floor(currentDurationInMin / 60)} hrs ${currentDurationInMin % 60} min`;
+  }
+
   setSelectedRoute = (e) => {
     e.preventDefault();
     this.setState({
@@ -350,6 +372,12 @@ class SearchableMap extends Component {
                                     </h5>
                                     <p className="card-text ">
                                       {latlong[4]}% people found this route safe
+                                    </p>
+                                    <p className="card-text ">
+                                      Travel Distance: {latlong[6]["distance"]}
+                                    </p>
+                                    <p className="card-text ">
+                                      Travel Time: {latlong[6]["duration"]}
                                     </p>
                                     <button
                                       onClick={this.setSelectedRoute}
