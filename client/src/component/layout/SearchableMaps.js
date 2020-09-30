@@ -183,6 +183,10 @@ class SearchableMap extends Component {
         this.state.routesWithStreetName[i],
         this.state.sampleFeedback[i],
         i,
+        {
+            "distance" : this.distanceHelper(this.state.routes.routes[i]["distance"]),
+            "duration" : this.durationHelper(this.state.routes.routes[i]["duration"])
+        }
       ]);
     }
     this.setState({ latlongSafety: arr });
@@ -199,10 +203,6 @@ class SearchableMap extends Component {
       this.state.latlongSafety[i][2] = this.state.colors[i];
       this.state.latlongSafety[i][4] = this.state.sampleFeedback[i];
       this.state.latlongSafety[i][5] = i + 1;
-      this.state.latlongSafety[i][6] = {
-          "distance" : this.distanceHelper(this.state.routes.routes[i]["distance"]),
-          "duration" : this.durationHelper(this.state.routes.routes[i]["duration"])
-      };
     }
     this.setState({ ready: true });
   };
