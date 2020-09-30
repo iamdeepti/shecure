@@ -117,11 +117,7 @@ class SearchableMap extends Component {
     const res = await axios.get(
       `https://api.mapbox.com/directions/v5/mapbox/cycling/${this.state.source[0]},${this.state.source[1]};${this.state.destination[0]},${this.state.destination[1]}?steps=true&alternatives=true&geometries=geojson&access_token=${token}`
     );
-    console.log(`Mapbox api callout endpoint:`);
-    console.log(`https://api.mapbox.com/directions/v5/mapbox/cycling/${this.state.source[0]},${this.state.source[1]};${this.state.destination[0]},${this.state.destination[1]}?steps=true&alternatives=true&geometries=geojson&access_token=${token}`);
     this.setState({ routes: res.data });
-    console.log(`Routes fetched based on the callout`);
-    console.log(this.state.routes);
     var arr = [];
     for (var i = 0; i < this.state.routes.routes.length; i++) {
       var temp = [];
