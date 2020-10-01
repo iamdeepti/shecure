@@ -1,24 +1,30 @@
-.img-home{
+.img-home {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-.btn-sos{
+.btn-sos {
   display: inline-block !important;
   position: fixed;
   bottom: 10px;
   right: 10px;
   /* float: right !important; */
 }
-.btn-flex{
+.btn-flex {
   display: inline-block !important;
   position: relative;
   margin-top: 100px;
   margin-left: 10px;
 }
-.btn-loc{
+.btn-loc {
   display: inline-block !important;
   position: relative;
   margin-top: 10px;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .btn-flex {
+    margin-top: 130px;
+  }
 }
