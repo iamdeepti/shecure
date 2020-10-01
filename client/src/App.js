@@ -13,7 +13,7 @@ export class App extends Component {
 			<Router>
 				<div className="app">
 					<NavBar />
-					<div className="container">
+					
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route
@@ -24,7 +24,7 @@ export class App extends Component {
 							<Route exact path="/Feedback" component={Feedback} />
 							<Route exact path='/myLocation' component={Map} />
 						</Switch>
-					</div>
+					
 				</div>
 			</Router>
 		);

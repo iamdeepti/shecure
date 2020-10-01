@@ -6,7 +6,7 @@ class searchSafeRoutes extends Component {
 
 	render() {
 		return (
-			<div className='container'>
+			<div>
 				<br/>
 				<SearchableMaps/>
 			</div>
