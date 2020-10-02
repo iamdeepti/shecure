@@ -8,6 +8,7 @@ import PolylineOverlay from "./PolylineOverlay";
 import Feedback from "../pages/Feedback";
 import { Button, Alert, Accordion, Card } from "react-bootstrap";
 import "../../App.css";
+import { Redirect } from "react-router-dom";
 var token = null;
 class SearchableMap extends Component {
   state = {
@@ -39,6 +40,7 @@ class SearchableMap extends Component {
     selectedRoute: null,
     sampleFeedback: [72, 55, 44, 32],
     token_loaded: false,
+    redirectTo: null
   };
   componentDidMount() {
     this.fetchToken();
@@ -227,6 +229,13 @@ class SearchableMap extends Component {
 
   setSelectedRoute = (e) => {
     e.preventDefault();
+    if(!this.props.user) {
+      this.setState({
+        selectedRoute: e.target.value,
+        redirectTo: '/login'
+      });
+      return;
+    }
     this.setState({
       selectedRoute: e.target.value,
       hideMap: true,
@@ -252,6 +261,9 @@ class SearchableMap extends Component {
     const {
       viewport
     } = this.state;
+    if(this.state.redirectTo) {
+      return ( <Redirect to={{pathname: this.state.redirectTo, state: {data: this.state.selectedRoute}}} /> )
+    }
     return (
       <div>
         {this.state.token_loaded ? (

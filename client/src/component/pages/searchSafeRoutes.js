@@ -8,7 +8,7 @@ class searchSafeRoutes extends Component {
 		return (
 			<div>
 				<br/>
-				<SearchableMaps/>
+				<SearchableMaps user={this.props.user} />
 			</div>
 		);
 	}
