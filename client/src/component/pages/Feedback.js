@@ -38,7 +38,7 @@ export class Feedback extends Component {
 	
   render() {
     return (
-      <div>
+      <div className = 'container'>
         <form>
           <div class='input-field col s12'>
             <br></br>
@@ -137,6 +137,7 @@ export class Feedback extends Component {
             >
               Submit form
             </button>
+            
           </div>
         </form>
       </div>

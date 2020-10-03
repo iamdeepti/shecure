@@ -30,7 +30,7 @@ export class LogIn extends Component {
 			password: password
 		})
 		.then(res => {
-			if(res.status == 200) {
+			if(res.status === 200) {
                 this.props.setUser(res.data.user)
                 if(this.state.data) 
                     this.setState({hideFeedback: false})

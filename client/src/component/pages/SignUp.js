@@ -38,7 +38,7 @@ export class SignUp extends Component {
 			password: password
 		})
 		.then(res => {
-            if(res.status == 200)
+            if(res.status === 200)
                 this.setState({redirectTo: '/login'})
         })
         .catch(err => {
@@ -79,7 +79,7 @@ export class SignUp extends Component {
                                     value={this.state.email}
                                     onChange={this.handleChange}
                                     required />
-                                    {this.state.emailValid || this.state.email.length==0 ? <span></span> : <Form.Text className="text-danger">Please enter a valid email address</Form.Text>}
+                                    {this.state.emailValid || this.state.email.length===0 ? <span></span> : <Form.Text className="text-danger">Please enter a valid email address</Form.Text>}
                                 </Form.Group>
 
                                 <Form.Group controlId="password">
@@ -91,7 +91,7 @@ export class SignUp extends Component {
                                     value={this.state.password}
                                     onChange={this.handleChange}
                                     required />
-                                    {this.state.passwordValid || this.state.password.length==0 ? <span></span> : <Form.Text className="text-danger">Your password must be at least 10 characters long and must contain a number</Form.Text>}
+                                    {this.state.passwordValid || this.state.password.length===0 ? <span></span> : <Form.Text className="text-danger">Your password must be at least 10 characters long and must contain a number</Form.Text>}
                                 </Form.Group>
 
                                 <Form.Group controlId="password2">
