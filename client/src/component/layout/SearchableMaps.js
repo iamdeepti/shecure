@@ -267,7 +267,7 @@ class SearchableMap extends Component {
     return (
       <div>
         {this.state.token_loaded ? (
-          <div className="container">
+          <div>
             {this.state.show === true && (
               <div>
                 <Alert
@@ -285,8 +285,25 @@ class SearchableMap extends Component {
             {this.state.hideMap === false && (
               <div>
                 <div className="row">
+                {
+                    <div className="col-lg-2 col-md-4 col-sm-12" style={{marginLeft:5}}>
+                      <p>
+                        <span style={{ color: "red" }}>Source: </span>
+
+                        {this.state.sourceName !== null
+                          ? this.state.sourceName
+                          : "Not Selected"}
+                        <br />
+                        <span style={{ color: "red" }}>Destination: </span>
+
+                        {this.state.destinationName !== null
+                          ? this.state.destinationName
+                          : "Not Selected"}
+                      </p>
+                    </div>
+                  }     
                   <div
-                    className="col-lg-9 col-md-8 col-sm-12"
+                    className="col-lg-7 col-md-8 col-sm-12"
                     style={{ height: "90vh" }}
                   >
                     <MapGL
@@ -341,23 +358,9 @@ class SearchableMap extends Component {
                         ))}
                       <div></div>
                     </MapGL>
-                  </div>
+                  </div> 
                   {
-                    <div class="col-lg-3 col-md-4 col-sm-12">
-                      <p>
-                        <span style={{ color: "red" }}>Source: </span>
-
-                        {this.state.sourceName !== null
-                          ? this.state.sourceName
-                          : "Not Selected"}
-                        <br />
-                        <span style={{ color: "red" }}>Destination: </span>
-
-                        {this.state.destinationName !== null
-                          ? this.state.destinationName
-                          : "Not Selected"}
-                      </p>
-
+                    <div className="col-lg-2 col-md-4 col-sm-12" style={{marginRight:5}}>
                       <p> Route Info: </p>
                       <Accordion defaultActiveKey={1}>
                         {this.state.ready === true &&
