@@ -5,7 +5,7 @@
   "proxy": "http://localhost:5000",
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "deck.gl": "^7.3.4",
     "jquery": "^3.5.1",
